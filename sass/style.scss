@@ -276,7 +276,8 @@ h1, h2, h3, h4, h5, h6 {
 							visibility: visible;
 							-webkit-transform: scaleX(1);
 							transform: scaleX(1);
-							background-color: $brand-primary;
+							
+							$brand-primary;
 							@media screen and (max-width: $screen-xs) {
 								background-color: transparent;
 								
@@ -1499,4 +1500,7 @@ h1, h2, h3, h4, h5, h6 {
 	.js & {
 		opacity: 0;
 	}
+}
+#fh5co-header #navbar li.active a span:before{
+	    background-color: none;
 }
