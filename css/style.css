@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #3EC483;
+  /*background-color: #3EC483;*/
 }
 @media screen and (max-width: 480px) {
   #fh5co-header #navbar li.active a span:before {
