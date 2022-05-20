@@ -1501,4 +1501,9 @@ h1, h2, h3, h4, h5, h6 {
 		opacity: 0;
 	}
 }
-
+#fh5co-header #navbar li.active a span:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    background-color: white !important;
+}
