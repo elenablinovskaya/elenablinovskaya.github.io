@@ -264,46 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 				}
 
 			}
-			&.active {
-				a {
-					background: transparent;
-					background: none;
-					@media screen and (max-width: $screen-xs) {
-						color: $brand-primary;
-					}
-					span {
-						&:before {
-							visibility: visible;
-							-webkit-transform: scaleX(1);
-							transform: scaleX(1);
-							
-							$brand-primary;
-							@media screen and (max-width: $screen-xs) {
-								background-color: transparent;
-								
-							}
-						}
-					}
-				}
-				@media screen and (max-width :$screen-md) {
-					a {
-						background: transparent;
-						background: none;
-						@media screen and (max-width: $screen-xs) {
-							color: $brand-primary;
-						}
-						span {
-							display: inline-block;
-							color: $brand-primary;
-							&:before {
-								bottom: 0;
-								height: 0;
-								background: transparent;
-							}
-						}
-					}
-				}
-			}
+			
 			&.call-to-action{
 				margin-left: 5px;
 				a {
