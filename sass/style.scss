@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 
 							$brand-primary;
 							@media screen and (max-width: $screen-xs) {
-								background-color: transparent;
+								background-color: white;
 
 							}
 						}
@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 					}
 					span {
 						&:before {
-							background-color: transparent;	
+							background-color: white;	
 						}
 						
 					}
@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
 								transform: scaleX(1);
 								background-color: $brand-primary;
 								@media screen and (max-width: $screen-sm) {
-									background-color: transparent;
+									background-color: white;
 								}
 								
 							}
@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
 						}
 						span {
 							&:before {
-								background-color: transparent;	
+								background-color: white;	
 							}
 							
 						}
@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-home {
-	background-color: transparent;
+	background-color: white;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
