@@ -266,14 +266,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #3EC483;
+  /*color: #3EC483;*/
 }
 @media screen and (max-width: 992px) {
   #fh5co-header.navbar-fixed-top #navbar li a {
     font-size: 16px;
   }
 }
-#fh5co-header.navbar-fixed-top #navbar li.active a {
+.active a {
   /*color: #3EC483 !important;*/
 }
 @media screen and (max-width: 768px) {
