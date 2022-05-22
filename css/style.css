@@ -813,10 +813,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #3EC483;
   display: table;
   margin: 0 auto;
-  -webkit-border-radius: 50%;
+ /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
 .fh5co-services .box-services .icon span i {
   display: table-cell;
