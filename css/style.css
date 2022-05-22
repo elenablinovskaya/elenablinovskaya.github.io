@@ -801,6 +801,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-services .box-services {
   position: relative;
   margin: 0 30px 70px 20px;
+  height: 13em;
 }
 .fh5co-services .box-services .icon {
   margin-bottom: 20px;
