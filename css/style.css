@@ -1415,3 +1415,9 @@ h1, h2, h3, h4, h5, h6 {
 .kurs1 {
     content: url("logo3.png");
 }
+.collapse {
+  display: flex;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 340px;
+    float: right;
